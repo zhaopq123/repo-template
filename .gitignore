@@ -1,0 +1,62 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- Node ----
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-store/
+.next/
+.nuxt/
+.output/
+
+# ---- 测试 / 缓存 ----
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.cache/
+
+# ---- 密钥 / 配置（绝不入库）----
+.env
+.env.*
+!.env.example
+config.env
+*.key
+*.pem
+*.p12
+*.pfx
+.credentials*
+*_token*
+*_secret*
+
+# ---- 运行时产物 ----
+*.log
+*.pid
+*.sock
+images/
+videos/
+uploads/
+output/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
