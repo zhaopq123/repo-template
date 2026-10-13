@@ -101,3 +101,9 @@ cp config.example.env .env
 ## 许可
 
 [MIT](LICENSE)
+
+
+## CI
+
+工作流模板见 [docs/ci/github-actions.yml](docs/ci/github-actions.yml)，
+复制到 `.github/workflows/ci.yml` 即可启用。
